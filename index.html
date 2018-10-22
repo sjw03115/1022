@@ -58,12 +58,12 @@
 
          }
 
-         #mars{ display: absolute; float: center; margin-right: 100px; text-align: right; left:  2000px; top:100px; animation: spin 1s linear infinite; transform: rotate(0deg;) }
+         #game { display: absolute; margin-right: 100px; text-align: right; left:  2000px; top:100px; transform: rotate(40deg;); animation: gameMove 2s infinite; transforom: rotateY(30deg); }
 
-         @keyframes spin {
-         	0% {transform: rotate(0deg;)}
-         	50% {transform: rotate(180deg;)}
-         	100%{transform: rotate(360deg;)}
+         @keyframes gameMove {
+         	0% {transform: rotateY(0deg;)}
+         	50% {transform: rotateY(180deg;)}
+         	100%{transform: rotateY(360deg;)}
          }
 
 
@@ -165,7 +165,7 @@ h2{  font-family: 'Ubuntu', sans-serif;z-index:2;width:70px;text-align: center; 
 <div id="Square"></div>
 </div>
 
-<div id="mars"><img src="jupiter.gif" style="width:300px;"></div>
+<div id="game"><img src="gameboy.gif" style="width:300px;"></div>
 
 
 
